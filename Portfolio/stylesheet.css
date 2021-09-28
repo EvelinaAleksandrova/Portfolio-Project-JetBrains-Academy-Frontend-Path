@@ -99,6 +99,12 @@ h1:hover {
     color: #e8e71e;
     font-size: 45px;
 }
+.aboutMeContainer h2{
+    margin-bottom: 26px;
+}
+.aboutMeContainer p{
+    margin-top: 8px;
+}
 
 .aboutMeContainer {
     display: flex;
@@ -121,10 +127,11 @@ h2 {
     font-size: 40px;
     font-weight: bold;
 }
-#paragraphSkills{
+
+#paragraphSkills {
     font-style: italic;
     text-decoration: underline;
-
+    margin-top: 35px;
 
 }
 
@@ -176,5 +183,50 @@ h2 {
 }
 
 #contacts {
-    margin-top: 300px;
+    margin-top: 200px;
+    color: black;
+}
+
+.contactMeAtContainer {
+    margin-bottom: 25px;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+#contacts h3 {
+    font-style: italic;
+    font-size: 23px;
+    margin-top: 30px;
+}
+
+#contacts a:link {
+    color: #000000;
+    text-decoration: underline;
+}
+
+#contacts a:hover {
+    color: #000000;
+    font-size: 27px;
+}
+
+#contacts a {
+    font-size: 23px;
+    color: #000000;
+}
+
+.icons * img {
+    margin-top: 20px;
+    height: 45px;
+    width: 45px;
+
+
+}
+
+.footerContainer {
+    margin-top: 200px;
 }
