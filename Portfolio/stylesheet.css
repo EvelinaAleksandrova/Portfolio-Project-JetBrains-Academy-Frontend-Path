@@ -15,40 +15,21 @@ time, mark, audio, video {
     padding: 0;
     /*border: 0;*/
     /*font-size: 100%;*/
-    /*font: inherit;*/
+    font: inherit;
     /*vertical-align: baseline;*/
 }
 
-/*!* HTML5 display-role reset for older browsers *!*/
-/*article, aside, details, figcaption, figure,*/
-/*footer, header, hgroup, menu, nav, section {*/
-/*    display: block;*/
-/*}*/
-/*body {*/
-/*    line-height: 1;*/
-/*}*/
-/*ol, ul {*/
-/*    list-style: none;*/
-/*}*/
-/*blockquote, q {*/
-/*    quotes: none;*/
-/*}*/
-/*blockquote:before, blockquote:after,*/
-/*q:before, q:after {*/
-/*    content: '';*/
-/*    content: none;*/
-/*}*/
-/*table {*/
-/*    border-collapse: collapse;*/
-/*    border-spacing: 0;*/
-/*}*/
 .header {
     padding: 0px;
     margin: 0px;
 
 }
-
+body{
+    background: rgb(255,247,218);
+    background: linear-gradient(90deg, rgba(255,247,218,1) 0%, rgba(255,247,153,1) 99%, rgb(232, 231, 30) 100%);
+}
 .navigationContainer {
+
     display: flex;
     flex-direction: row;
     justify-content: end;
@@ -59,12 +40,15 @@ time, mark, audio, video {
     font-size: 25px;
     align-items: center;
 
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    /*width: 100%;*/
+
+
 
 }
-
-/*.navigationContainer a{*/
-/*    padding: 20px 20px;*/
-/*}*/
 
 .navBar {
 
@@ -82,15 +66,79 @@ a:link {
 }
 
 a:hover {
-    color: mediumspringgreen;
+    color: #e8e71e;
     font-size: 27px;
 }
 
 a {
+    color: white;
     margin-right: 10px;
     margin-left: 10px;
 }
-#imageHeader{
+
+#imageHeader {
     max-width: 100%;
     height: auto;
+}
+
+h1 {
+    width: 430px;
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    text-align: center;
+    left: 25%;
+    top: 50%;
+    /*right , bottom*/
+    transform: translate(-75%, -50%);
+
+}
+
+h1:hover {
+    color: #e8e71e;
+    font-size: 45px;
+}
+
+.aboutMeContainer {
+    display: flex;
+    flex-flow: column;
+    text-align: left;
+    width: 700px;
+    height: 300px;
+    margin-top:250px;
+    margin-right: 40px;
+    font-size: 23px;
+}
+
+#about {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+}
+h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+.picturesAboutMeContainer{
+    position: relative;
+    margin-top: 180px;
+    margin-left: 80px;
+
+}
+#image1{
+    position: relative;
+    height: 370px;
+    width: 350px;
+    margin-left: 240px;
+    margin-top: 110px;
+}
+#image2{
+    position: absolute;
+    width: 500px;
+    height: 400px;
+}
+
+
+#portfolio{
+    margin-top: 300px;
 }
