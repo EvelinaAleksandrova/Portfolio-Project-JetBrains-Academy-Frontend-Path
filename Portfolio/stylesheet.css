@@ -27,7 +27,7 @@ time, mark, audio, video {
 
 body {
     background: rgb(255, 247, 218);
-    background: linear-gradient(90deg, rgba(255, 247, 218, 1) 0%, rgba(255, 247, 153, 1) 99%, rgb(232, 231, 30) 100%);
+    background: linear-gradient(90deg, rgba(255, 247, 218, 1) 0%, rgba(255, 247, 153, 1) 99%);
 }
 
 .navigationContainer {
@@ -99,10 +99,12 @@ h1:hover {
     color: #e8e71e;
     font-size: 45px;
 }
-.aboutMeContainer h2{
+
+.aboutMeContainer h2 {
     margin-bottom: 26px;
 }
-.aboutMeContainer p{
+
+.aboutMeContainer p {
     margin-top: 8px;
 }
 
@@ -130,8 +132,10 @@ h2 {
 
 #paragraphSkills {
     font-style: italic;
+    font-size: 30px;
     text-decoration: underline;
     margin-top: 35px;
+
 
 }
 
@@ -192,11 +196,14 @@ h2 {
 }
 
 .contacts {
+
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-color: #ececbc;
-    margin-bottom: 50px;
+    background-color: rgba(255, 247, 218, 1);
+    /*margin-bottom: 50px;*/
+    padding-top: 30px;
+
 }
 
 
@@ -220,6 +227,7 @@ h2 {
     font-size: 23px;
     color: #000000;
 }
+
 /*#contacts{*/
 /*    margin-bottom: 30px;*/
 /*}*/
@@ -228,17 +236,59 @@ h2 {
     margin-top: 20px;
     height: 45px;
     width: 45px;
+    margin-bottom: 30px;
 }
-.icons #gmail{
+
+.icons #gmail {
     height: 51px;
+    margin-right: 10px;
+}
+
+.icons #facebook {
+    margin-right: 10px;
+}
+
+.icons #instagram {
+    margin-right: 10px;
+}
+
+.icons #discord {
+    margin-right: 10px;
+}
+
+.icons #gmail:hover {
+    transform: translateY(-20px);
+    transition: 1.2s;
+}
+
+.icons #discord:hover {
+    transform: translateY(-20px);
+    transition: 1.2s;
+}
+
+.icons #facebook:hover {
+    transform: translateY(-20px);
+    transition: 1.2s;
+}
+
+.icons #instagram:hover {
+    transform: translateY(-20px);
+    transition: 1.2s;
 }
 
 .footerContainer {
-    height: 100px;
-    background-color: #deba2b;
-    margin-top: 35px;
-    margin-bottom: 35px;
+    height: 130px;
+    background-color: rgba(255, 247, 153, 1);
+
+
+    /*margin-bottom: 35px;*/
     text-align: center;
+
     font-size: 30px;
     font-style: oblique;
+}
+
+.footerContainer h3 {
+    padding: 30px 5%;
+    /*padding-bottom: 30px;*/
 }
