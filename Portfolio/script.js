@@ -9,7 +9,6 @@ function closeForm() {
 
 }
 
-
 function openForm2() {
     document.getElementById('myForm2').style.display = 'block';
     document.getElementById("myForm2").classList.add("active");

@@ -240,21 +240,43 @@ h2 {
 .window {
     display: none;
     position: fixed;
-    top: 25%;
-    right: 30%;
+    /*justify-content: center;*/
+
     align-items: center;
     /*bottom: 300px;*/
     /*right: 1px;*/
-    border: 3px solid black;
+    border: 3px double black;
     z-index: 9;
 
 
 }
 
+.window h3 {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-decoration: underline #efef51;
+}
+
+#myForm2 {
+    margin-top: 10px;
+    top: 25%;
+    left: 5%;
+}
+
+#myForm {
+    margin-top: 10px;
+    top: 25%;
+    right: 5%;
+}
+
+.window p {
+    margin-bottom: 13px;
+}
+
 /* Add styles to the form container */
 .form-container {
-    width: 430px;
-    height: 400px;
+    width: 640px;
+    height: 440px;
     padding: 10px;
     background-color: white;
     opacity: 1;
@@ -266,26 +288,23 @@ h2 {
     font-size: 20px;
     width: 90px;
     height: 35px;
-    margin-top: 50px;
+    margin: 30px;
 }
 
-.body:active {
-   opacity: .5;
-}
 
-.overlay {
-    display: none;
-    opacity: 0;
-    background: rgba(0, 0, 0, .5);
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vw;
-    z-index: 100;
-    cursor: pointer;
-    transition: opacity .3s;
-}
+/*.overlay {*/
+/*    display: none;*/
+/*    opacity: 0;*/
+/*    background: rgba(0, 0, 0, .5);*/
+/*    position: fixed;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    width: 100vw;*/
+/*    height: 100vw;*/
+/*    z-index: 100;*/
+/*    cursor: pointer;*/
+/*    transition: opacity .3s;*/
+/*}*/
 
 
 #contacts {
