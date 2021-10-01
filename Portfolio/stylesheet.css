@@ -13,10 +13,10 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
     margin: 0;
     padding: 0;
-    /*border: 0;*/
-    /*font-size: 100%;*/
+    border: 0;
+    font-size: 100%;
     font: inherit;
-    /*vertical-align: baseline;*/
+    vertical-align: baseline;
 }
 
 .header {
@@ -31,7 +31,6 @@ body {
 }
 
 .navigationContainer {
-
     display: flex;
     flex-direction: row;
     justify-content: end;
@@ -41,24 +40,14 @@ body {
     height: 60px;
     font-size: 25px;
     align-items: center;
-
     position: fixed;
     top: 0;
     left: 0;
     z-index: 9999;
-    /*width: 100%;*/
-
-
 }
-
-.navBar {
-
-}
-
 #about #portfolio #contacts #home {
     color: white;
     flex-grow: 5;
-
 }
 
 a:link {
@@ -89,13 +78,9 @@ h1 {
     color: white;
     position: absolute;
     text-align: center;
-
     left: 3%;
     top: 10%;
-    /*!*right , bottom*!*/
-    /*transform: translate( -50%);*/
     min-height: 5px;
-
 }
 
 h1:hover {
@@ -138,15 +123,12 @@ h2 {
     font-size: 30px;
     text-decoration: underline;
     margin-top: 35px;
-
-
 }
 
 .picturesAboutMeContainer {
     position: relative;
     margin-top: 140px;
     margin-left: 40px;
-
 }
 
 #image1 {
@@ -168,8 +150,6 @@ h2 {
     max-width: 80%;
     max-height: 70%;
 }
-
-
 /*#portfolio {*/
 /*    display: flex;*/
 /*    text-align: center;*/
@@ -217,12 +197,10 @@ h2 {
     margin: 0.5%;
     padding: 2%;
     width: 40%;
-    /*background-color: white;*/
     font-size: large;
     text-align: center;
     height: 400px;
     border: 3px double black;
-
 }
 
 .screenshot img {
@@ -231,7 +209,6 @@ h2 {
     height: 300px;
     border: 3px double black;
     max-width: 100%;
-
 }
 
 .screenshot button {
@@ -248,15 +225,9 @@ h2 {
 .window {
     display: none;
     position: fixed;
-    /*justify-content: center;*/
-
     align-items: center;
-    /*bottom: 300px;*/
-    /*right: 1px;*/
     border: 3px double black;
     z-index: 9;
-
-
 }
 
 .window h3 {
@@ -299,9 +270,7 @@ h2 {
     width: 90px;
     height: 35px;
     margin: 30px;
-
 }
-
 
 #contacts {
     margin-top: 160px;
@@ -318,7 +287,6 @@ h2 {
     flex-direction: column;
     text-align: center;
     background-color: rgba(255, 247, 218, 1);
-    /*margin-bottom: 50px;*/
     padding-top: 30px;
 
 }
@@ -344,10 +312,6 @@ h2 {
     font-size: 23px;
     color: #000000;
 }
-
-/*#contacts{*/
-/*    margin-bottom: 30px;*/
-/*}*/
 
 .icons img {
     margin-top: 20px;
@@ -404,5 +368,4 @@ h2 {
 
 .footerContainer h3 {
     padding: 15px 5%;
-
 }
