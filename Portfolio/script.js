@@ -27,18 +27,18 @@ function closeForm2() {
 function menuOpenAndClose() {
     if (flagForOpen === true) {
         document.getElementById('menu-hamburger').style.visibility = 'visible';
-        document.getElementById("hamburger").style.height = "355px";
+        document.getElementById("hamburger").style.height = "340px";
         document.getElementById("menu-hamburger").style.textAlign = "center";
         document.getElementById("menu-hamburger").style.padding = "25px";
         document.getElementById('menuImg').style.alignItems = "center";
         document.getElementById("menu-hamburger").style.fontSize = "20px";
-        document.getElementById('name').style.top = "450px";
+        document.getElementById('name').style.top = "400px";
         flagForOpen = false;
     }
     else{
         document.getElementById('menu-hamburger').style.display = 'hidden';
         document.getElementById("hamburger").style.height = "50px";
-        document.getElementById('name').style.top = "140px";
+        document.getElementById('name').style.top = "130px";
         flagForOpen = true;
     }
 }
