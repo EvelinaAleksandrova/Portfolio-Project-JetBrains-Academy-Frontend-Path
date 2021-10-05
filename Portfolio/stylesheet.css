@@ -71,6 +71,27 @@ a {
 
 @media only screen and (max-width: 899px) {
 
+
+    .window {
+        font-size: 15px;
+        padding-right: 20px;
+        display: none;
+        background-color: white;
+        position: fixed;
+        width: 300px;
+        height: 300px;
+        align-items: center;
+        border: 5px double black;
+        z-index: 9;
+    }
+
+    .window h3 {
+        margin-top: 10px;
+        margin-bottom: 30px;
+        text-decoration: underline #efef51;
+    }
+
+
     #name {
         font-size: 25px;
         top: 140px;
@@ -349,7 +370,7 @@ h2 {
 /* Add styles to the form container */
 .form-container {
     width: 650px;
-    height: 450px;
+    height: 250px;
     padding: 10px;
     background-color: white;
     opacity: 1;
