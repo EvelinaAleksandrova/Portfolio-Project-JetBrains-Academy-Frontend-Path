@@ -303,11 +303,15 @@ h2 {
     margin-top: 150px;
     text-align: center;
 }
+#portfolio{
+
+}
 
 .img-container {
     display: flex;
     justify-content: center;
     margin-top: 50px;
+    flex-wrap:  wrap;
 }
 
 .screenshot h3 {
@@ -315,7 +319,7 @@ h2 {
 }
 
 .screenshot h3:hover {
-    font-size: 33px;
+    font-size: 30px;
     text-decoration: underline black;
 }
 
@@ -358,7 +362,7 @@ h2 {
 
 .window h3 {
     margin-top: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     text-decoration: underline #efef51;
 }
 
@@ -381,7 +385,7 @@ h2 {
 /* Add styles to the form container */
 .form-container {
     width: 650px;
-    height: 250px;
+    height: 700px;
     padding: 10px;
     background-color: white;
     opacity: 1;
