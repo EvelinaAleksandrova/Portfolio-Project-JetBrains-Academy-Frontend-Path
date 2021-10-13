@@ -9,7 +9,6 @@ function openForm() {
 function closeForm() {
     document.getElementById('myForm').style.display = 'none';
     document.getElementById("body").classList.remove("active");
-
 }
 
 function openForm2() {
@@ -20,8 +19,24 @@ function openForm2() {
 function closeForm2() {
     document.getElementById('myForm2').style.display = 'none';
     document.getElementById("myForm2").classList.remove("active");
+}
+function openForm3() {
+    document.getElementById('myForm3').style.display = 'block';
+    document.getElementById("myForm3").classList.add("active");
+}
 
+function closeForm3() {
+    document.getElementById('myForm3').style.display = 'none';
+    document.getElementById("myForm3").classList.remove("active");
+}
+function openForm4() {
+    document.getElementById('myForm4').style.display = 'block';
+    document.getElementById("myForm2").classList.add("active");
+}
 
+function closeForm4() {
+    document.getElementById('myForm4').style.display = 'none';
+    document.getElementById("myForm4").classList.remove("active");
 }
 
 function menuOpenAndClose() {
