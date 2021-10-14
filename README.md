@@ -5,7 +5,7 @@ Simple Portfolio page with navigation bar, header, about me section, portfolio s
 JetBrains Academy Frontend Path 
 
 # DEMO 
-https://evelinaaleksandrova.github.io/evelinaaleksandrova.github.io-Portfolio-Project/
+https://evelinaaleksandrova.github.io/evelinaaleksandrova.github.io-Portfolio/
 
 # Technologies:
 - HTML
